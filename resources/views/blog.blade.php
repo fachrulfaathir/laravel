@@ -1,3 +1,4 @@
 <x-layout>
-  ini adalah halaman blog
+    <x-slot:title>{{ $title }}</x-slot:title>
+    Welcome to My Blog
 </x-layout>
